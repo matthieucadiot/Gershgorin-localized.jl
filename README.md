@@ -7,7 +7,8 @@ Table of contents:
 
 * [Introduction](#introduction)
 * [The Swift Hohenberg equation](#the-swift-hohenberg-equation)
-   * [Constructive existence proof](#constructive-existence-proof)
+* [The capillary-gravity Whitham equations](#the-capillary-gravity-Whitham-equations)
+* [The Gray-Scott system of equations](#the-Gray-Scott-system-of-equations)
 * [Utilisation and References](#utilisation-and-references)
 * [License and Citation](#license-and-citation)
 * [Contact](#contact)
