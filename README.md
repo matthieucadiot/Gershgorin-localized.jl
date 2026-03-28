@@ -55,7 +55,7 @@ In Section 5.2 of [[1]](https://arxiv.org/abs/2505.03091), we study the linear s
 # The Gray-Scott system of equations
 
 The Gray-Scott system of equations
-$$\partial_tu_1 = \lambda_1 \Delta u_1 -  u_1 + (u_2 + 1 - \lambda_1 u_1)u_1^2 =0$$
+$$\partial_tu_1 = \lambda_1 \Delta u_1 -  u_1 + (u_2 + 1 - \lambda_1 u_1)u_1^2 =0,   $$
 $$\partial_tu_2 = \Delta u_2 - \lambda_2 u_2 + (\lambda_2 \lambda_1 - 1)u_1 = 0$$
 is known to have stationary localized solutions on $\mathbb{R}^2$ that vanish at infinity. These solutions are called localized patterns (see [[paper]](https://arxiv.org/abs/2302.12877) for an introduction to the subject). 
 
