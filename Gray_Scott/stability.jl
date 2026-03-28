@@ -9,8 +9,8 @@ include("matproducts.jl")
 
 U01 = load("U01.jld2","U01") #Spike solution first component
 U02 = load("U02.jld2","U02") #Spike solution second component
-U01_D4 = load("U01.jld2","U01") #Spike solution first component with the D4 structure
-U02_D4 = load("U02.jld2","U02") #Spike solution second component with the D4 structure
+U01_D4 = load("U01_D4.jld2","U01") #Spike solution first component with the D4 structure
+U02_D4 = load("U02_D4.jld2","U02") #Spike solution second component with the D4 structure
 N0 = 50   # number of Fourier modes for the ring
 N = 50    # number of Fourier modes for operators for the ring
 setprecision(80)
