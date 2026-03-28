@@ -36,7 +36,7 @@ In [[1]](https://arxiv.org/abs/2505.03091), we provide the stability analysis of
 
 The Swift-Hohenberg equation
 $$(I_d+\Delta)^2u +  \mu u + \nu_1 u^2 + \nu_2 u^3 =0$$
-is known to have localized solutions on $\mathbb{R}^2$ that vanish at infinity. These solutions are called localized patterns (see [[1]](https://arxiv.org/abs/2302.12877) for an introduction to the subject). 
+is known to have localized solutions on $\mathbb{R}^2$ that vanish at infinity. These solutions are called localized patterns (see [[paper]](https://arxiv.org/abs/2302.12877) for an introduction to the subject). 
 
 In Section 5.1 of [[1]](https://arxiv.org/abs/2505.03091), we study the stability of an hexagonal and a square localized solution, which existence were obtained in [2]. In particular, we rely on the approximate solutions provided at https://github.com/matthieucadiot/LocalizedPatternSH.jl, which were used for the constructive existence proofs. The files stability_D4.jl (square solution) and stability_D6.jl (hexagonal solution) contain the numerical details for such rigorous computations, following the estimates provided in Section 5.1 of the paper.
 
@@ -57,7 +57,7 @@ In Section 5.2 of [[1]](https://arxiv.org/abs/2505.03091), we study the linear s
 The Gray-Scott system of equations
 $$\partial_tu_1 = \lambda_1 \Delta u_1 -  u_1 + (u_2 + 1 - \lambda_1 u_1)u_1^2 =0$$
 $$\partial_tu_2 = \Delta u_2 - \lambda_2 u_2 + (\lambda_2 \lambda_1 - 1)u_1 = 0$$
-is known to have stationary localized solutions on $\mathbb{R}^2$ that vanish at infinity. These solutions are called localized patterns (see [[1]](https://arxiv.org/abs/2302.12877) for an introduction to the subject). 
+is known to have stationary localized solutions on $\mathbb{R}^2$ that vanish at infinity. These solutions are called localized patterns (see [[paper]](https://arxiv.org/abs/2302.12877) for an introduction to the subject). 
 
 In Section 5.3 of [[1]](https://arxiv.org/abs/2505.03091), we study the stability of a radial localized pattern, which existence was obtained in [4]. In particular, we rely on the approximate solution provided at https://github.com/dominicblanco/LocalizedPatternsGS.jl, which was used for the constructive existence proofs. The file stability.jl contains the numerical details for such rigorous computations, following the estimates provided in Section 5.3 of the paper.
  
